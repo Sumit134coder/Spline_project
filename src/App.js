@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { Suspense } from 'react'
 import './App.css';
 import Router from './router';
