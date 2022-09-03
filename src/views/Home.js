@@ -25,15 +25,17 @@ function Home() {
           //   transition :{ ease: "easeOut" , duration:3 }
           // }}  
           animate={{
-            x:[-20 , 0 , 4 , -4 , 0],
-            scale: [1, 1.2, 1.2, 1.2, 1],
-            // rotate: [0, 0, 30, -30, 0],
+            // x:[-20 , 0 , 4 , -4 , 0],
+            scale: [1, 0.8, 0.8, 0.8, 1],
+            rotate: [0, 0, 30, -30, 0],
           }}
           transition={{ ease: "easeOut", duration: 2 }}
           className="bg-white px-8 py-4 rounded-lg shadow flex flex-col gap-4"
         >
-          <h4 className="text-5xl font-bold">Welcome</h4>
-          <h5>Drag over the image to interact</h5>
+          <h4 className="text-5xl font-bold">Spline + Framer Motion</h4>
+          <h5 className="text-center">Drag over the image to interact</h5>
+          <h5 className="text-center">OR</h5>
+          <h5 className="text-center">Hover over card</h5>
         </motion.div>
       </div>
       <div className="w-1/2 h-full">
